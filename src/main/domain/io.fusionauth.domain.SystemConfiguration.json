@@ -40,6 +40,9 @@
     "reportTimezone" : {
       "type" : "ZoneId"
     },
+    "searchEngineConfiguration" : {
+      "type" : "SearchEngineConfiguration"
+    },
     "uiConfiguration" : {
       "type" : "UIConfiguration"
     }
