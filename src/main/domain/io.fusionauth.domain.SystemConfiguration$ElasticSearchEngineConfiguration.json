@@ -1,0 +1,9 @@
+{
+  "packageName" : "io.fusionauth.domain",
+  "type" : "ElasticSearchEngineConfiguration",
+  "fields" : {
+    "serviceURL" : {
+      "type" : "String"
+    }
+  }
+}

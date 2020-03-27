@@ -4,6 +4,9 @@
   "fields" : {
     "searchEngineType" : {
       "type" : "String"
+    },
+    "elasticsearch" : {
+      "type" : "ElasticSearchEngineConfiguration"
     }
   }
 }
