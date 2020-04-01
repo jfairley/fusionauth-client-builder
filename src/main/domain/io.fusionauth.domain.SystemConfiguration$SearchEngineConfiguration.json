@@ -2,11 +2,11 @@
   "packageName" : "io.fusionauth.domain",
   "type" : "SearchEngineConfiguration",
   "fields" : {
-    "searchEngineType" : {
-      "type" : "String"
-    },
     "elasticsearch" : {
       "type" : "ElasticSearchEngineConfiguration"
+    },
+    "searchEngineType" : {
+      "type" : "String"
     }
   }
 }
