@@ -157,6 +157,8 @@ public class FusionAuthClient {
                                                                     .configure(SerializationFeature.WRITE_EMPTY_JSON_ARRAYS, false)
                                                                     .configure(SerializationFeature.WRITE_NULL_MAP_VALUES, false)
                                                                     .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
+                                                                    .configure(DeserializationFeature.USE_BIG_DECIMAL_FOR_FLOATS, true)
+                                                                    .configure(DeserializationFeature.USE_BIG_INTEGER_FOR_INTS, true)
                                                                     .registerModule(new JacksonModule());
 
   private final String apiKey;
