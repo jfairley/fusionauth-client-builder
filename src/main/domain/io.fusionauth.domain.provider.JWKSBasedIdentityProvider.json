@@ -1,0 +1,6 @@
+{
+  "packageName" : "io.fusionauth.domain.provider",
+  "type" : "JWKSBasedIdentityProvider",
+  "description" : "/**\n * Interface for all identity providers that have a known JWKS endpoint.\n */\n",
+  "fields" : { }
+}

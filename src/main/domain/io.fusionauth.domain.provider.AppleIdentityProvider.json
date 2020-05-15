@@ -13,6 +13,8 @@
     "typeArguments" : [ {
       "type" : "AppleIdentityProvider"
     } ]
+  }, {
+    "type" : "JWKSBasedIdentityProvider"
   } ],
   "fields" : {
     "buttonText" : {
