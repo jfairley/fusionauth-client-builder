@@ -1,6 +1,7 @@
 {
   "packageName" : "io.fusionauth.domain",
   "type" : "CORSConfiguration",
+  "description" : "/**\n * @author Trevor Smith\n */\n",
   "extends" : [ {
     "type" : "Enableable"
   } ],
@@ -36,6 +37,14 @@
       "type" : "List",
       "typeArguments" : [ {
         "type" : "String"
+      } ]
+    },
+    "identityProviderOverride" : {
+      "type" : "Map",
+      "typeArguments" : [ {
+        "type" : "UUID"
+      }, {
+        "type" : "CORSOverride"
       } ]
     },
     "preflightMaxAgeInSeconds" : {
