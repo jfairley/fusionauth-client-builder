@@ -14,7 +14,9 @@
       "type" : "AppleIdentityProvider"
     } ]
   }, {
-    "type" : "JWKSBasedIdentityProvider"
+    "type" : "JSONWebKeyInfoProvider"
+  }, {
+    "type" : "RequiresCORSConfiguration"
   } ],
   "fields" : {
     "buttonText" : {
@@ -22,9 +24,6 @@
     },
     "keyId" : {
       "type" : "UUID"
-    },
-    "lambdaConfiguration" : {
-      "type" : "LambdaConfiguration"
     },
     "scope" : {
       "type" : "String"

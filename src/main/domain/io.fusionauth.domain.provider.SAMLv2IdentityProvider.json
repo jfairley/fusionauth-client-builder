@@ -41,9 +41,6 @@
     "keyId" : {
       "type" : "UUID"
     },
-    "lambdaConfiguration" : {
-      "type" : "LambdaConfiguration"
-    },
     "useNameIdForEmail" : {
       "type" : "boolean"
     }

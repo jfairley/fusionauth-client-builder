@@ -39,14 +39,6 @@
         "type" : "String"
       } ]
     },
-    "identityProviderOverride" : {
-      "type" : "Map",
-      "typeArguments" : [ {
-        "type" : "UUID"
-      }, {
-        "type" : "CORSOverride"
-      } ]
-    },
     "preflightMaxAgeInSeconds" : {
       "type" : "int"
     }

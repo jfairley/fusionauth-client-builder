@@ -1,0 +1,6 @@
+{
+  "packageName" : "io.fusionauth.domain",
+  "type" : "RequiresCORSConfiguration",
+  "description" : "/**\n * Interface for any object that requires CORS configuration.\n */\n",
+  "fields" : { }
+}
